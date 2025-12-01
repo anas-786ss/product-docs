@@ -2,83 +2,65 @@
 marp: true
 theme: default
 paginate: true
-header: "Product Documentation v1.0 | 23f3003127@ds.study.iitm.ac.in"
-footer: "Confidential - Internal Use Only"
+header: "Documentation v1.0 | 23f3003127@ds.study.iitm.ac.in"
 style: |
-  /* Custom Theme Specification */
   section {
-    background-color: #fdfdfd;
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    color: #333;
+    font-family: 'Arial', sans-serif;
   }
   h1 {
-    color: #2980b9;
-    border-bottom: 2px solid #2980b9;
-  }
-  code {
-    background-color: #f0f0f0;
-    color: #e74c3c;
+    color: #0066cc;
   }
 ---
 
-# Cloud API Documentation
-## Technical Specification & Architecture
+# Product Documentation
+## version 2.0
 
-**Created by:** Technical Writing Team
-**Contact:** 23f3003127@ds.study.iitm.ac.in
+**Author:** Technical Writing Team
+**Email:** 23f3003127@ds.study.iitm.ac.in
 
 ---
 
-# Documentation Overview
+# Architecture Overview
 
-This presentation covers the core architecture of our new distributed system.
+This documentation covers the new scalable architecture.
 
-### Key Features
-- **Scalability:** Horizontal scaling support
-- **Maintainability:** Modular codebase
-- **Compliance:** GDPR ready
+* **Module A:** User Authentication
+* **Module B:** Data Processing
+* **Module C:** Reporting
 
-> Email for support: 23f3003127@ds.study.iitm.ac.in
+> Note: All modules communicate via REST APIs.
 
 ---
 
 # Algorithmic Complexity
 
-We use a modified merge-sort algorithm for data ingestion. The time complexity is defined as:
+We utilize a binary search algorithm for the lookup service.
 
 $$
-T(n) = 2T\left(\frac{n}{2}\right) + \Theta(n) \implies O(n \log n)
+O(\log n)
 $$
 
-Where:
-- $n$ is the number of data records
-- $\Theta(n)$ represents the merge step overhead
+Where $n$ is the number of records in the database.
+
+**Main Contact:** 23f3003127@ds.study.iitm.ac.in
 
 ---
 
-![bg right:40%](https://images.unsplash.com/photo-1558494949-ef526b0042a0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80)
+![bg right:50%](https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80)
 
-# Infrastructure Topology
+# Visual Topology
 
-The system is deployed across three availability zones.
+The infrastructure is split between:
 
-1. **Load Balancer:** Nginx
-2. **App Server:** Node.js Cluster
-3. **Database:** PostgreSQL Sharded
+1. **Frontend:** React SPA
+2. **Backend:** Python Django
+3. **DB:** PostgreSQL
 
-This setup ensures **99.99% uptime** as verified by our SRE team.
+This setup ensures high availability.
 
 ---
 
-# Configuration Directives
+# Thank You
 
-To maintain consistency, please use the following configuration block in your `config.yaml`:
-
-```yaml
-system:
-  version: "2.1.0"
-  retry_policy:
-    max_attempts: 5
-    backoff: exponential
-    
-# Maintainer: 23f3003127@ds.study.iitm.ac.in
+For access to the repository, please contact:
+**23f3003127@ds.study.iitm.ac.in**
