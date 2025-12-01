@@ -2,21 +2,20 @@
 marp: true
 theme: default
 paginate: true
-header: "Documentation v1.0 | 23f3003127@ds.study.iitm.ac.in"
+description: "23f3003127@ds.study.iitm.ac.in"
+header: "Docs v1.0 | 23f3003127@ds.study.iitm.ac.in"
 style: |
   section {
     font-family: 'Arial', sans-serif;
   }
-  h1 {
-    color: #0066cc;
-  }
+  h1 { color: #0066cc; }
 ---
 
 # Product Documentation
-## version 2.0
+## Version 2.0
 
-**Author:** Technical Writing Team
-**Email:** 23f3003127@ds.study.iitm.ac.in
+**Created by:** Technical Writing Team
+**Student ID:** 23f3003127@ds.study.iitm.ac.in
 
 ---
 
@@ -28,7 +27,7 @@ This documentation covers the new scalable architecture.
 * **Module B:** Data Processing
 * **Module C:** Reporting
 
-> Note: All modules communicate via REST APIs.
+> **Contact:** 23f3003127@ds.study.iitm.ac.in
 
 ---
 
@@ -40,9 +39,7 @@ $$
 O(\log n)
 $$
 
-Where $n$ is the number of records in the database.
-
-**Main Contact:** 23f3003127@ds.study.iitm.ac.in
+Where $n$ is the number of records.
 
 ---
 
@@ -56,11 +53,8 @@ The infrastructure is split between:
 2. **Backend:** Python Django
 3. **DB:** PostgreSQL
 
-This setup ensures high availability.
-
 ---
 
-# Thank You
+# End of Presentation
 
-For access to the repository, please contact:
-**23f3003127@ds.study.iitm.ac.in**
+Thank you.
